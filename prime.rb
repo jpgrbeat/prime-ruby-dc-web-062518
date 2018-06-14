@@ -11,7 +11,7 @@ def prime?(num)
   count = 0
   while count < range.size 
     if(num % range[count] == 0)
-      false
+      return false
     end
     count += 1
   end

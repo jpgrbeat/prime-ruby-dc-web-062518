@@ -4,7 +4,7 @@ def prime?(num)
   if num <= 1 
     return false
   end
-  range =* (2..(num-1))
+  Array =* (2..(num-1))
   binding.pry
   count = 0
   while count < range.size 

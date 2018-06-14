@@ -7,7 +7,7 @@ def prime?(num)
     true
   end
   range = Array (2..(num-1))
-  learn --f-fbinding.pry
+  binding.pry
   count = 0
   while count < range.size 
     if(num % range[count] == 0)

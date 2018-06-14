@@ -4,7 +4,7 @@ def prime?(num)
   if num <= 1 
     return false
   elsif num == 2 || num == 3
-    true
+    return true
   end
   range = Array (2..(num-1))
   binding.pry

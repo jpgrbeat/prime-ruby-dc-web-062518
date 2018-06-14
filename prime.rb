@@ -7,7 +7,7 @@ def prime?(num)
     return true
   end
   range = Array (2..(num-1))
-  binding.pry
+  3binding.pry
   count = 0
   while count < range.size 
     if(num % range[count] == 0)
